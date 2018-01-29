@@ -7,6 +7,16 @@
     |__|  |__|__| |__| |__|__|__|  |____|__|__|_____|_____|__|\_|
 -----------------------------------------------------------------------
     
+## Tools I use:
+
+Point by calculator:
+
+> https://github.com/nickalaskreynolds/Pathfinder-Point-Buy-Calculator.git
+
+Character Sheet:
+
+> https://github.com/nickalaskreynolds/awesomeSheet.git
+
 ## Directories for the pathfinder campaigns I am in
 
 # kellen-dm
