@@ -12,3 +12,4 @@
 # 18 Aug   2018 Jess   PapaJohn 39.00
 # 25 Aug   2018 Nick   Chipotle 45.00
 # 02 Sept  2018 Tim    PapaJohn 30.00
+# 09 Sept  2018 Alex   Chipotle 46.38
