@@ -16,7 +16,7 @@ def padList(inputList):
 def readInput(fname):
     with open(fname,'r') as f:
         #lines = [y for x in f.readlines() for y in x.strip('#').strip('\n').split(' ') if y != '']
-        lines = [x.strip('#').strip('\n').strip(' ') for x in f.readlines()]
+        lines = [x.strip('#').strip('\n').replace('\t',' ').strip(' ') for x in f.readlines()]
     toReturn = []
     for i,row in enumerate(lines):
         if row != '':
@@ -69,7 +69,7 @@ def formatList(inputList,schema=(('0-2','str'),('3','str'),('4','str'),('5','str
     for i,row in enumerate(inputList):
         while rI < len(row):
             rV = row[rI].strip(' ')
-            print(rI,rV)
+            #print(rI,rV)
             if withinRange(rI,schema[schemaIter][0]):
                 temp.append(matchFormat(rV,schema[schemaIter][1]))
                 if (rI == (len(row)-1)):
@@ -90,6 +90,7 @@ def compileCost(inputList,nameRow=3,costRow=5):
     toReturn = []
     temp = {}
     for i,row in enumerate(inputList):
+        print(row)
         try:
             temp[row[nameRow]] += float(row[costRow])
         except KeyError:
