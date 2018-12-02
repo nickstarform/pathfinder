@@ -20,4 +20,6 @@
 # 21 Oct   2018 Alex   PapaJohn 35.00
 # 28 Oct   2018 Kellen PapaJohn 30.00
 # 04 Nov   2018 Jess   Dominoes 40.00
-# 11 Nov   2018 Nick   PapaJohn 45.00
+# 11 Nov   2018 Nick   PapaJohn 40.00
+# 18 Nov   2018 Tim    Chipotle 40.00
+# 01 Dec   2018 Alex   Dominoes 28.00
