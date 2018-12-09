@@ -101,12 +101,20 @@ def compileCost(inputList,nameRow=3,costRow=5):
 
 
 if __name__ == '__main__':
-    
-    fname = input('Input the filename to read: ')
+    from argparse import ArgumentParser
+    parser = ArgumentParser()
+    parser.add_argument('-i', '--input', type=str, dest='i', help='Input file', default='')
+    args = parser.parse_args()
+    if not args.i:
+        fname = input('Input the filename to read: ')
+    else:
+        fname = args.i
     inputsF = readInput(fname)
     ''' input
     # 14 April 2018 Kellen Chipotle 47.47
     # 21 April 2018 Jess   Chipotle 45.50
     '''
     print(compileCost(formatList(inputsF),1,3))
+
+# end of file
 

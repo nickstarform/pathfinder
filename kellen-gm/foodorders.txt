@@ -23,3 +23,4 @@
 # 11 Nov   2018 Nick   PapaJohn 40.00
 # 18 Nov   2018 Tim    Chipotle 40.00
 # 01 Dec   2018 Alex   Dominoes 28.00
+# 09 Dec   2018 Kellen Dominoes 32.00
