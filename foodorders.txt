@@ -1,0 +1,15 @@
+# users
+j=jess
+a=alex
+n=nick
+k=kellen
+t=tim
+# date   Person Place  total   split
+2019_01_12 j Dominoes 32.13    j=e,a=e,k=e,t=e,n=e
+2019_01_19 a Dominoes 33.85    j=e,a=e,k=e,t=e,n=e
+2019_02_16 n Chipotle 37.79    j=e,a=e,k=e,t=e,n=e
+2019_05_11 t Dominoes 30.36   
+2019_05_25 k ThaiDeli          j=e,a=e,k=e,n=e 
+
+
+
