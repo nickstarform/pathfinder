@@ -8,7 +8,7 @@ t=tim
 2019_01_12 j Dominoes 32.13    j=e,a=e,k=e,t=e,n=e
 2019_01_19 a Dominoes 33.85    j=e,a=e,k=e,t=e,n=e
 2019_02_16 n Chipotle 37.79    j=e,a=e,k=e,t=e,n=e
-2019_05_11 t Dominoes 30.36   
+2019_05_11 t Dominoes 30.36    j=e,a=e,k=e,t=e
 2019_05_25 k ThaiDeli          j=e,a=e,k=e,n=e 
 2019_07_06 a Dominoes 31.00    j=e,a=e,k=e,t=e
 2019_07_20 n PapaJohn 40.00    j=e,a=e,k=e,t=e,n=e
